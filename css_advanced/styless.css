@@ -1,0 +1,83 @@
+/* styling header */
+header nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav img  {
+    font-size: 12px;
+    padding: 20px 0px 20px 120px;
+}
+
+ul {
+    display: flex;
+    font-size: 12px;
+    margin-right: 50px;
+    
+}
+
+ul li {
+    list-style: none;
+    
+}
+
+ul li a {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-right: 50px;
+    font-family: sans-serif;
+    line-height: 50px;
+   
+}
+
+
+/* styling header end*/
+
+
+/* styling main section first*/
+.first {
+background-image: url(images/Object.png);
+background-repeat: no-repeat;
+height: 1093px;
+margin-top: -200px;
+
+
+
+}
+
+.first .first-one {
+    text-align: center;
+    
+}
+
+.first .first-one h1{
+    font-size: 112px;
+    padding-top: 211px;
+    padding-left: 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+
+ .first .first-one span{
+    font-size: 12px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 700;
+    padding-top: -120px;
+}  
+
+.first .first-two h2 {
+    text-align: center;
+    
+}
+
+.first .first-two div {
+    display: flex;
+    
+}
+/* styling main section first end*/

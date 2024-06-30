@@ -1,0 +1,396 @@
+/* Styling header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* line-height: 1.6; */
+}
+
+img {
+    max-width: 100%; 
+     height: auto;
+}
+
+/* Header Navigation */
+
+header {
+    overflow: hidden;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #333; */
+}
+
+header nav .logo {
+    /* margin-right: auto; */
+    margin-left:   150px   ;
+    margin-top: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    /* padding-left: 20px;  */
+    margin: 0;
+    padding-right: 50px; 
+}
+
+header nav ul li {
+    margin-left: 20px;
+    padding-right: 50px; 
+}
+
+header nav a {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+/* styling header end */
+
+
+
+
+
+/* main section first */
+
+
+
+section.sec {
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    
+    /* height: 1093px; */
+    
+}
+
+.first .first-one{
+   
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    text-align: center;
+    margin-top: 180px;
+
+}
+
+.first-one h1 {
+    font-size: 108px;
+    color: white;
+    margin-left: 85px;
+}
+
+.first-one span {
+    font-size: 15px;
+    padding: 0 18px;
+    font-weight: 600;
+    color: white;
+    
+    
+}
+
+.first-one button {
+    padding: 14px;
+    background-color: #c486e6;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 5px 5px 15px rgba(25, 22, 22, 0.5);
+
+}
+
+
+.first-two h2 {
+    font-size: 25px; 
+    font-weight: 100;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    color: white;
+   
+}
+
+.first-two h2 span, .third .pur, .fourth1 .pur{
+    color: #b57bdb;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.imgfirst {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.imgfirst p {
+    text-align: center;
+}
+
+/* main section first end*/
+
+/* main section second */
+
+main .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bc75fa;
+    gap: 60px;
+    padding: 80px 60px; 
+    line-height: 32px;
+    color: white;
+    
+}
+
+.second .second2 blockquote {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+
+.second .second2 p {
+    font-size: 20px;
+    font-family: ;
+}
+/* main section second end*/
+
+
+
+
+/*main section third*/
+
+
+main .third h2{
+    font-size: 30px;
+    font-weight: 350;
+    text-align: center;
+    margin-top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .third .third-one {
+    margin: 80px 60px 240px 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+main .third .third-one .h>h3 {
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+main .third .third-one .h>p {
+    margin: 10px;
+    font-size: 13px;
+    color: rgb(128, 125, 125);
+    line-height: 1.5;
+}
+
+main .third .third-one img.smallimg {
+    width: 30px;
+    margin: 5px 0 0 0;
+    margin-left: 5px;
+}
+
+.icon {
+    display: flex;
+    gap: 8px;
+    color: #b170ea;
+    font-size: 12px;
+    margin-top: 12px;
+    
+}
+
+.icon .ash{
+   
+    color: #dddddd;
+   
+    
+}
+
+
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.author>h4 {
+   
+padding-top: 5px;  
+  gap: 15px;
+  color: #b170ea;
+  font-size: 12px;
+   
+}
+
+.author .smallimg {
+    margin-right: 1px; /* Adjust as needed */
+}
+
+
+.section-container {
+    display: flex;
+    justify-content: space-around; /* Space out the items, adjust as needed */
+    flex-wrap: wrap; /* Ensure it wraps on smaller screens */
+    gap: 20px; /* Add gap between the items */
+    margin: 20px 0; /* Add margin to the top and bottom of the container */
+}
+
+.fourth1>h2 {
+    padding-top: 80px;
+    font-weight: 1;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    padding-bottom: 50px;
+    
+}
+
+.fourth1 {
+    text-align: center;
+    background-color: #0a1b34;
+    height: 80vh;
+    margin-top: -150px;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    text-align: center;  
+    width: 200px; 
+}
+
+.fourth img {
+    margin-bottom: 10px; /* Space between the image and h3 */
+}
+
+.fourth h3, p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5px; /* Space between h3 and p */
+    line-height: 2;
+}
+
+
+
+.fourth1 button {
+    padding: 14px;
+    background-color: #c486e6;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 5px 5px 15px rgba(25, 22, 22, 0.5);
+    margin-top: 50px;
+
+}
+
+/* Center the h2 element */
+
+section.last h2 {
+    text-align: center;
+    margin-bottom: -50px;
+    font-size: 55px;
+    font-weight:1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 4;
+    
+}
+
+
+
+section.last .dd {
+    color: #a9a9a8;
+    line-height: 2;
+    padding-top: 15px;
+    letter-spacing: 0.5px;
+    
+}
+
+/* Container for the F.A.Q. content */
+section.last > div {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    align-items: center; 
+     gap: 80px; 
+    margin: 80px 250px; 
+    font-size: 12px;
+    
+   
+}
+
+/* Style for the inner divs */
+section.last > div > div {
+    flex: 1 1 45%; /* Allows the divs to take up approximately half the width each */
+    margin-bottom: 20px; /* Adds space at the bottom of each inner div */
+}
+
+/* Style for the questions */
+section.last h3 {
+    /* margin-top: -50px; */
+    margin-bottom: 10px;
+}
+
+/* Style for the answers */
+section.last > div > div > div:nth-child(2n) {
+    margin-bottom: 50px; /* Adds space at the bottom of the answer divs */
+}
+
+/* main section third end*/
+
+
+
+/* styling footer */
+footer {
+    background-color: #0a1b34;
+    height: 50vh;
+    margin-top: -50px;
+}
+
+footer .foot {
+    display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+   padding: 100px 150px;
+}
+
+footer .foot i {
+    font-size: 25px;
+    color: white;
+    padding: 0 10px;
+}
+
+
+footer p {
+   text-align: center; 
+   color: #5c5c5b;
+   font-size: 11.5px;
+}
+/* styling footer end*/
+
